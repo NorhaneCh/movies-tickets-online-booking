@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Poppins, sans-serif;
+  line-height: 1.5;
+}
+.dark-gradient {
+  background: -webkit-linear-gradient(180deg, #b93ca2, #e6b2dc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient {
+  background: -webkit-linear-gradient(180deg, #b93ca2, #4d1943);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dark-stroked-text {
+  font-style: italic;
+  -webkit-text-stroke: 1px #f4dcef;
+  -webkit-text-fill-color: transparent;
+}
+.stroked-text {
+  font-style: italic;
+  -webkit-text-stroke: 1px #230b1e;
+  -webkit-text-fill-color: transparent;
+}
